@@ -1,0 +1,98 @@
+body
+
+{
+   
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 0;
+    background-image: url(https://pa1.narvii.com/6993/7b7544b0e51a13ca5d69931abe7cc751051c3773r1-552-309_hq.gif);
+    background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+header
+{
+   
+    display: flex;
+    min-height: 90px;
+    background-color:rgb(255, 197, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.logo
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img
+{
+    height: 90px;
+    margin-right: 10px;
+
+}
+
+
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+
+nav a:hover
+{
+    color: aliceblue;
+
+}
+
+@media (max-with:700px){
+
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+}
+
+h1{
+    height:10px;
+}
+
+button{
+
+    background-color: rgb(255, 184, 255);
+}
+
+
+         
+  
+
+
+
+       
+       
+       
+    
+
+
